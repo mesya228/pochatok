@@ -1,0 +1,28 @@
+.auth-wrapper {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px auto;
+  
+    textarea {
+      resize: none;
+    }
+  }
+  
+  .files {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
